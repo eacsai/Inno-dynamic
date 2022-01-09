@@ -1,0 +1,2 @@
+<import src="../../runtime-core/template/base.wxml"/>
+<template is="TPL" data="{{root: root}}" />
