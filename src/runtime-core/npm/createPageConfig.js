@@ -2,7 +2,7 @@ import * as React from 'react';
 import Container from './Container';
 import render from './render';
 
-export default function createPageConfig(Page) {
+export function createPageConfig(Page) {
   const config = {
     data: {
       root: {
@@ -14,7 +14,6 @@ export default function createPageConfig(Page) {
       const pageElement = React.createElement(Page, {
         page: this,
       });
-
       this.element = render(pageElement, this.container);
     }
   };

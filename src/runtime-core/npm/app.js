@@ -1,1 +1,1 @@
-export { default as createPage } from './createPageConfig'
+export { createPageConfig } from './createPageConfig'

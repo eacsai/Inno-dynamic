@@ -1,11 +1,8 @@
 {
-  "name": "{{name}}",
+  "name": "experiment",
   "version": "1.0.0",
   "description": "{{description}}",
   "main": ".eslintrc.js",
-  "bin": {
-    "inno-dynamic": "bin/index.js"
-  },
   "devDependencies": {
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",
